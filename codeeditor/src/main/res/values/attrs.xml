@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CodeEditor">
+        <!-- Editor Behavior -->
+        <attr name="ce_readOnly" format="boolean" />
+        <attr name="ce_lineWrapping" format="boolean" />
+        <attr name="ce_tabWidth" format="integer" />
+        <attr name="ce_useSoftTabs" format="boolean" />
+        <attr name="ce_showTabCharacters" format="boolean" />
+        <attr name="ce_autoIndent" format="boolean" />
+        <attr name="ce_smartIndent" format="boolean" />
+        <attr name="ce_vimModeEnabled" format="boolean" />
+
+        <!-- Display -->
+        <attr name="ce_showLineNumbers" format="boolean" />
+        <attr name="ce_showWordCount" format="boolean" />
+        <attr name="ce_showCharacterCount" format="boolean" />
+        <attr name="ce_highlightCurrentLine" format="boolean" />
+        <attr name="ce_highlightTrailingSpaces" format="boolean" />
+        <attr name="ce_highlightMatchingBrackets" format="boolean" />
+        <attr name="ce_showMinimap" format="boolean" />
+        <attr name="ce_showGutter" format="boolean" />
+
+        <!-- Search -->
+        <attr name="ce_regexSearch" format="boolean" />
+        <attr name="ce_caseSensitive" format="boolean" />
+        <attr name="ce_wholeWord" format="boolean" />
+        <attr name="ce_highlightAllMatches" format="boolean" />
+
+        <!-- Appearance -->
+        <attr name="ce_textSize" format="dimension" />
+        <attr name="ce_lineNumberTextSize" format="dimension" />
+        <attr name="ce_lineNumberPadding" format="dimension" />
+        <attr name="ce_currentLineColor" format="color" />
+        <attr name="ce_selectionColor" format="color" />
+        <attr name="ce_gutterBackgroundColor" format="color" />
+        <attr name="ce_gutterDividerColor" format="color" />
+        <attr name="ce_trailingSpaceColor" format="color" />
+        <attr name="ce_matchingBracketColor" format="color" />
+        <attr name="ce_minimapWidth" format="dimension" />
+
+        <!-- Syntax Highlighting -->
+        <attr name="ce_syntaxHighlightingEnabled" format="boolean" />
+        <attr name="ce_language" format="string" />
+        <attr name="ce_theme" format="enum">
+            <enum name="light" value="0" />
+            <enum name="dark" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
